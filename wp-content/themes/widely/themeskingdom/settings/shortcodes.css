@@ -1,0 +1,81 @@
+	.onehalf{width:48%;float:left;display:block;margin:0 4% 0px 0;}
+	.onethird{width:31%;float:left;display:block;margin:0 3.5% 0px 0;}
+	.twothird{width:64%;float:left;display:block;margin:10px 5% 0px 0;}
+	.oneforth{width:23.5%;float:left;display:block;margin:0 2% 0px 0;}
+	.shortcodeimg-holder{background:#fff;-moz-border-radius: 2px; /*  Firefox */-webkit-border-radius: 2px; /* Safari, Chrome */ 	border-radius: 2px; /* CSS3 */	padding:6px;border:1px solid #eaeaea;}
+	.shortcodeimg-holder img{margin:0!important;}
+	.ajaxmessage{display: block;width: 100%;}
+	
+	#three-columns{float:left;width:100%;padding:10px 0 10px;}
+	.titles .cell_title{padding:0!important;}
+	#four-columns{padding:10px 0 10px;float:left;width: 100%;}
+	#five-columns{padding:10px 0 10px;float:left;width: 100%;}
+	#two-columns {padding:10px 0 10px;float:left;width: 100%;}
+	#three-columns .one_cell{float: left;margin: 0 2% 0 0!important;width: 32%;padding:0%;height:auto!important;border:0!important}
+	#four-columns .one_cell{float: left!important;margin: 0 4% 0 0 !important;width: 22% !important;padding:0%;height:auto!important;border:0!important}
+	#five-columns .one_cell{float: left!important;margin: 0 3.75% 0 0 !important;width: 17% !important;padding:0%;height:auto!important;border:0!important}
+	.titles{float:left;display:block;padding: 5px 0 0 0;width: 81%;}
+	#four-columns .titles{width: 100%;}
+	#five-columns .titles{width: 100%;}
+	#fullwidth-box{padding:10px 0;float:left;width:100%;}
+	#fullwidth-box .titles,#fullwidth-box .cell_title{float:left;width:100%;}
+
+
+	
+	.cell_title{ padding: 7px 0 5px  !important;}
+	.cell_image_front{ margin:0 5% 0 0 !important;}
+	.cell_subtitle{color: #d0d0d0!important;font-size: 11px;font-weight: normal;line-height: 14px;  padding: 4px 0 0;float:left;font-family:'Droid Serif'}
+	.cell_text img{float: left;margin: 10px;}
+	.cell_title{line-height: 21px;padding: 0 0 5px; width: 100%;}
+	.cell_title h2 a:hover{color:#C25151!important;}
+	.cell_title_single{padding:0 0 5px 0;}
+	.cell_title h2, .cell_title h2 a, .cell_title_single h2, .cell_title_single h2 a, h2 a{font-family:'Droid Serif';font-weight:normal;line-height: 17px;color:#6c6c6c;font-size:15px;}
+	.cell_text{padding:20px 0px 0px!important;float:left;font-family:'Droid Sans';color:#444444;line-height: 20px;}
+	
+	span.break{float: left;height: 4px;margin: 10px 0;width: 100%;}
+	
+	/* Tabs */
+	html ul.tabs li.active, html ul.tabs li.active a:hover {background: #FFF;border-bottom: 1px solid #FFF;}
+	html ul.tabs li.active a {color: #706D6A;}
+	.panes {padding: 0 2% 20px 2%;font-size: 12px;border: 1px solid #E2E2E2;border-bottom-left-radius: 2px;-moz-border-bottom-left-radius: 2px;-webkit-border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;-moz-border-bottom-right-radius: 2px;-webkit-border-bottom-right-radius: 2px;color: #ADADAD;line-height: 150%;margin: 0 0 10px 0;margin-right: -2px;float:left;background:#fff;width: 96%;}
+	ul.tabs {margin: 0px 0 0 0;padding: 0;float: left;list-style: none;height: 39px;border: 1px solid #E2E2E2;border-bottom: 0;width: 100%;background: #f8f7f7;border-top-left-radius: 2px;-moz-border-top-left-radius: 2px;-webkit-border-top-left-radius: 2px;border-top-right-radius: 2px;-moz-border-top-right-radius: 2px;-webkit-border-top-right-radius: 2px;}
+	ul.tabs li {float: left;margin: 0;padding: 0;height: 39px; line-height: 39px;border: 1px solid #E2E2E2;border-top: none;border-left:0px solid #FFF;margin-bottom: -1px; overflow: hidden;position: relative;	background: #f8f7f7;border-top-left-radius: 2px;-moz-border-top-left-radius: 2px;-webkit-border-top-left-radius: 2px;}
+	ul.tabs li a {text-decoration: none;color: #BEBAB5;display: block;font-size: 12px;padding: 0 20px;outline: none;cursor:pointer;}
+	#tabs_shortcode ul.tabs li a{
+		padding: 7px 0 !important;
+		display: inline-block;
+		width: 100%;
+	}
+	ul.tabs li:hover {background: #fff;}
+	#tabs_shortcode{margin:10px 0 10px;float: left;width:100%;}
+	
+	/* -- [Contact form] -- */
+	.contact_input_text{background:#fff;color: #9e9e9e;font-size: 11px;margin: 0px 19px 0px 0px;padding: 4px 4px;width: 192px;float:left;}
+	.form-holder .contact_input_text{width:180px;margin: 0 29px 0 0;}
+	#commentform{margin: 0px 0 0 0;}
+	#commentform input{background-color:#fff;font-size: 12px;height: 36px;width: 287px;float:left;}
+	.form-holder #commentform input{ width: 270px;}
+	#message { padding: 10px !important;}
+	/*comments*/
+	.comment-form-left{float: left;width: 100%;}
+	
+	.comment-form-left p{font-weight:normal;font-size: 13px;color:#363636;display:block;}
+	.comment-form-left a{color:#D15B5B;}
+	.comment-form-right{float: left;margin: 15px 0 0 0;width: 100%;}
+	
+	.comment-form-right p{float: left;width:100%;}
+	.comment-form-right textarea{background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #EAEAEA;  color: #9e9e9e;  font-size: 12px;  font-style: normal;   height: 207px; margin: 4px 0;  overflow: hidden; padding: 20px 1.5% 8px 2%; width: 600px;-moz-border-radius: 2px; /*  Firefox */-webkit-border-radius: 2px; /* Safari, Chrome */ 	border-radius: 2px; /* CSS3 */}
+	.form-holder .comment-form-right textarea{}
+	.comment-form-left input{background:#ffffff;border:1px solid #eaeaea;-moz-border-radius: 2px; /*  Firefox */-webkit-border-radius: 2px; /* Safari, Chrome */ 	border-radius: 2px; /* CSS3 */padding: 3px 4px 0 10px;width: 32%;margin-right:15px;}
+
+	.form-holder{clear: both;display: block;float: none;width: 100%;}
+	.submitButton{background-image:url(img/button.png)!important;background-repeat:no-repeat!important;background-color:transparent;border: 0;color: #6f6e6e !important;font-size: 10px;padding: 6px 16px 6px 16px !important;width: 55px;}
+	
+	.quote{background-image:url(img/quote.png);background-repeat:no-repeat;background-position:1px 28px;background-color:transparent;padding:52px 0 38px 38px;font-family:'Droid Serif';font-style:italic;color:#6c6c6c;line-height: 22px;}
+	.ullist{list-style:decimal inside!important;}
+	.ullist li{	padding: 0 0 5px 0;	}
+	.ultype1{list-style-image:url(img/styletype/1.png)!important;}
+	.ultype2{list-style-image:url(img/styletype/2.png)!important;}
+	.ultype3{list-style-image:url(img/styletype/3.png)!important;}
+	.ultype4{list-style-image:url(img/styletype/4.png)!important;}
+	.ultype5{list-style-image:url(img/styletype/5.png)!important;}
