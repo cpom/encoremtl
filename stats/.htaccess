@@ -1,1 +1,6 @@
-Options +Indexes
+AuthType Basic
+AuthName " Statistics"
+AuthName "dev.encoremtl.com Statistics"
+AuthUserFile /var/chroot/home/content/69/9898169/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

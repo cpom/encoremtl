@@ -24,6 +24,7 @@
 
             $value = 4;
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 0;
+            $include_category = '6';
             $args=array('cat'=>$include_category, 'post_status' => 'publish','paged' => $paged,'posts_per_page' => 4,'ignore_sticky_posts'=> 1);
 
             //The Query
@@ -62,7 +63,7 @@
                 </div><!--ends page-image-holder -->
 
                 <div class="front-post-title"><a href="<?php the_permalink(); ?>"><?php echo substr($title,0,18).$dots; ?></a></div>
-                <div class="front-post-text"><?php truncate_post(130);?></div>
+                <div class="front-post-text"><?php truncate_post(500);?></div>
                 <a class="cell_read_more" href="<?php the_permalink(); ?>">More</a>
                 <div class="clear-both"></div>
 

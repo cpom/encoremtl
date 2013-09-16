@@ -199,7 +199,7 @@ a img {
 
 .header-logo{
     float: left;
-    padding:40px 0 0 0px;}
+    padding:30px 0 0 0px;}
 
 /*---------[SLIDESHOW_WRAP]---------*/
 #slidershow_wrap { 
@@ -1461,12 +1461,13 @@ span.break{float: left;height: 4px;margin: 10px 0;width: 100%;}
 .front-post-title a{color:#414141;font-size:16px; font-family:'PT Sans', sans-serif; }
 .front-post-title a:hover{color:#8b8b8b;} 
 
-.front-post-text{min-height: 76px;width: 203px;line-height:22px;font-family: Helvetica, sans-serif; font-size:12px; color:#666;}
+.front-post-text{min-height: 50px;width: 203px;line-height:22px;font-family: Helvetica, sans-serif; font-size:12px; color:#666;}
 .cell_read_more:hover{color:#414141} 
 .cell_read_more{ 
     display: inline-block;
     margin: 20px 0 0; padding-left:18px;background: url("img/read-more-arrow.png") no-repeat scroll left center transparent;
     font-size:11px;
+	color: #9e0313;
 }
 
 .title-line{

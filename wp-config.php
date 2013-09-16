@@ -22,7 +22,7 @@ define('DB_NAME', 'enc1226807341770');
 define('DB_USER', 'enc1226807341770');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Encore123!');
+define('DB_PASSWORD', '350c83901e3a');
 
 /** MySQL hostname */
 define('DB_HOST', 'enc1226807341770.db.9898169.hostedresource.com');
