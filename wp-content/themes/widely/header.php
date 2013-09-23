@@ -151,7 +151,7 @@
                                                 }
                                                 $cont = substr($post->post_content,0,90);
                                                 $postslug = get_post_slug($post->ID);
-                                                echo "<img src='".get_template_directory_uri()."/script/timthumb.php?src=".$img."&w=960&h=490&zc=1&q=100' title='".substr($title,0,25).$dots."' alt='".$post->post_title."' link='".get_permalink()."' cont='".$cont.$dots2."' class='nodisplay' id='".$pageURL."$postslug' rev='$cont$dots2' rel='";
+                                                echo "<img src='".get_template_directory_uri()."/script/timthumb.php?src=".$img."&w=960&h=300&zc=1&q=100' title='".substr($title,0,25).$dots."' alt='".$post->post_title."' link='".get_permalink()."' cont='".$cont.$dots2."' class='nodisplay' id='".$pageURL."$postslug' rev='$cont$dots2' rel='";
                                                 echo get_template_directory_uri()."/script/timthumb.php?src=".$img."&w=960&h=406&zc=1&q=100'>" ;
 
                                         }		endwhile
